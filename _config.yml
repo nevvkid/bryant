@@ -80,21 +80,27 @@ prose:
           element: "text"
           label: "Focal Length (select Post Type - Photo)"
           value: "23mm"
-    _posts/static:
+    _posts/quote:
       - name: "layout"
         field:
-          element: "hidden"
-          value: "page"
+          element: "text"
+          label: "Layout"
+          value: "post"
       - name: "title"
         field:
           element: "text"
           label: "Title"
           value: ""
-      - name: "permalink"
+      - name: "category"
         field:
           element: "text"
-          label: "Permalink"
-          value: ""
+          label: "Category"
+          value: "posts"
+      - name: "type"
+        field:
+          element: "text"
+          label: "Post Type"
+          value: "quote"
 
 # Color Options
 text_color: '#444444'
