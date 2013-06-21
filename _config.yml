@@ -55,6 +55,31 @@ prose:
             - name: "Link"
               value: "link"
           selected: "text"
+      - name: "photo_url"
+        field:
+          element: "text"
+          label: "Photo URL (select Post Type - Photo)"
+          value: "http://somesite.com/images/someimage.jpg"
+      - name: "camera"
+        field:
+          element: "text"
+          label: "Camera (select Post Type - Photo)"
+          value: "Fujifilm Finepix X100"
+      - name: "aperture"
+        field:
+          element: "text"
+          label: "Aperture (select Post Type - Photo)"
+          value: "f/4"
+      - name: "exposure"
+        field:
+          element: "text"
+          label: "Exposure (select Post Type - Photo)"
+          value: "1/250th"
+      - name: "focal_length"
+        field:
+          element: "text"
+          label: "Focal Length (select Post Type - Photo)"
+          value: "23mm"
     _posts/static:
       - name: "layout"
         field:
