@@ -6,9 +6,51 @@ paginate: 5 # the number of post per page
 rdiscount:
   extensions: [smart]
 
+# prose.io template
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://nevvkid.github.io/bryant/'
+  relativeLinks: 'http://nevvkid.github.io/bryant/links.jsonp'
+  media: '_posts/media'
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "text"
+          label: "Layout"
+          value: "post"
+     - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "category"
+        field:
+          element: "text"
+          label: "Category"
+          value: "posts"
+      - name: "type"
+        field:
+          element: "select"
+          label: "Type"
+          placeholder: "Select a Post Type"
+          options:
+            - name: "Text"
+              value: "text"
+            - name: "Photo"
+              value: "photo"
+          	- name: "Embed"
+              value: "embed"
+            - name: "Quote"
+              value: "quote"
+            - name: "Link"
+              value: "link"
+          selected: "text"
+
+
 # User Options
 name: Mikey Wills
-baseurl: http://stylehatch.github.io/bryant
+baseurl: /bryant
 description: "A designer based out of Orange County, CA. Front end developer at Style Hatch. Just killing time between meals."
 email: mikey@muke.me
 twitter: mukealicious
