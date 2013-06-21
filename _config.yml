@@ -6,6 +6,15 @@ paginate: 5 # the number of post per page
 rdiscount:
   extensions: [smart]
 
+# User Options
+name: Mikey Wills
+baseurl: /bryant
+description: "A designer based out of Orange County, CA. Front end developer at Style Hatch. Just killing time between meals."
+email: mikey@muke.me
+twitter: mukealicious
+icon_url: http://muke.me/images/mikeyface.png
+disqus_shortname: jekyllbyron
+
 # prose.io template
 prose:
   rooturl: '_posts'
@@ -61,16 +70,6 @@ prose:
           element: "text"
           label: "Permalink"
           value: ""
-
-
-# User Options
-name: Mikey Wills
-baseurl: /bryant
-description: "A designer based out of Orange County, CA. Front end developer at Style Hatch. Just killing time between meals."
-email: mikey@muke.me
-twitter: mukealicious
-icon_url: http://muke.me/images/mikeyface.png
-disqus_shortname: jekyllbyron
 
 # Color Options
 text_color: '#444444'
